@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/config">
+
+    <CheckBox
+        android:id="@+id/playWhenScroll_checkBox"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#ff000000"
+        android:text="Play music when scroll" />
+
+    <CheckBox
+        android:id="@+id/showPricingDlg_checkBox"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playWhenScroll_checkBox"
+        android:layout_alignTop="@+id/playWhenScroll_checkBox"
+        android:layout_marginTop="65dp"
+        android:textColor="#ff000000"
+        android:text="Show pricing dialog immediately after buying music" />
+    
+    <CheckBox
+        android:id="@+id/autoLoop_checkBox"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playWhenScroll_checkBox"
+        android:layout_alignTop="@+id/showPricingDlg_checkBox"
+        android:layout_marginTop="65dp"
+        android:textColor="#ff000000"
+        android:text="Auto Loop when playing music" />
+
+</RelativeLayout>

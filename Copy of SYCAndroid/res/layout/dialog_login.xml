@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="450dp"
+    android:layout_height="280dp"
+    android:background="@drawable/dialog"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/DialogOKButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/DialogMessageTitle"
+        android:background="@drawable/redbtn"
+        android:text="@string/btn_go"
+        android:textColor="@color/btntextcolor"
+        android:textStyle="bold" />
+    
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignTop="@+id/DialogOKButton"
+        android:ems="8"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="18dp"
+        android:layout_marginRight="39dp"
+        android:ems="8"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/DialogOKButton"
+        android:text="welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

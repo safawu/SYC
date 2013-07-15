@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="left"
+    android:paddingTop="20dp">
+
+   <LinearLayout
+        android:id="@+id/itemColor"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"    
+   		
+   		android:addStatesFromChildren="true" />
+
+    <org.syc.android.MarqueeTextView
+        android:id="@+id/itemName"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="italic" 
+        
+        android:focusable="true"
+        android:singleLine="true"
+		android:marqueeRepeatLimit="marquee_forever"
+		android:ellipsize="marquee"
+		android:focusableInTouchMode="true"
+		android:scrollHorizontally="true"/>
+
+    <TextView
+        android:id="@+id/itemPurchasePrice"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemSellingPrice"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/itemSellingTime"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+</LinearLayout>

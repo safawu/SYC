@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="Framework/Const/|Framework/Item/|Framework/Kernel/|Framework/Util/|MusicTradingSystem/Item/|MusicTradingSystem/Kernel/|MusicTradingSystem/Util/|Framework/|MusicTradingSystem/|Framework/|org/syc/android/PlayActivity.java|org/syc/music_trading_system/Kernel/MusicUser.java|org/syc/music_trading_system/Util/ClassTransfer.java|org/syc/music_trading_system/Kernel/MusicInterface.java|org/syc/android/HomeActivity.java|org/syc/framework/Test.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registDialog"
+    android:layout_width="450dp"
+    android:layout_height="280dp"
+    android:background="@drawable/dialog"
+    android:baselineAligned="false" >
+
+    <Button
+        android:id="@+id/button_OK"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/redbtn"
+        android:text="OK"
+        android:textColor="@color/btntextcolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="42dp"
+        android:background="@null"
+        android:ems="8"
+        android:hint="username"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:ems="8"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:ems="8"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/mail_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_OK"
+        android:layout_alignLeft="@+id/confirm_password"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:ems="8"
+        android:hint="mail address"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/mail_addr"
+        android:background="@drawable/bluebtn"
+        android:text="Cancel"
+        android:textColor="@color/btntextcolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

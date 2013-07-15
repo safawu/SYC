@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/commence"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity" >
+
+    <Button
+        android:id="@+id/button_GO"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/password"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/redbtn"
+        android:text="GO"
+        android:textSize="30sp"
+        android:textColor="@color/btntextcolor"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="27dp"
+        android:background="@null"
+        android:ems="8"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="20sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background="@null"
+        android:ems="8"
+        android:hint="username"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_regist"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/button_GO"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bluebtn"
+        android:text="Register"
+        android:textColor="@color/btntextcolor"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/remember_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignTop="@+id/button_regist"
+        android:text="Remember password" />
+
+</RelativeLayout>

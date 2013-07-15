@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SYCAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_go"><b>GO</b></string>
+
+    <color name="btntextcolor">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_green">#385723</color>
+    <color name="dark_blue">#2F5597</color>
+    <color name="purple">#7930A0</color>
+    <color name="light_green">#00CC00</color>
+    <color name="light_blue">#00B0F0</color>
+    <color name="grey">#7F7F7F</color>
+    <color name="red">#ff0000</color>
+
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="title_activity_local">LocalActivity</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="title_activity_commence">CommenceActivity</string>
+
+    <color name="game_bg">#BE5108</color>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_play_scroll">PlayScroll</string>
+
+</resources>
